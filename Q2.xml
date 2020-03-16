@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="uni.css"?>
+<university>
+<uniname>Savitribai Phule University</uniname>
+<city>Pune</city>
+<rank>1</rank>
+
+<uniname>Panjab University</uniname>
+<city>Panjab</city>
+<rank>10</rank>
+
+<uniname>Karnataka University</uniname>
+<city>Karnataka</city>
+<rank>5</rank>
+</university>
