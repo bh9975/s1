@@ -1,0 +1,35 @@
+<html>
+<head>
+<script language="javascript">
+function change()
+{
+	
+	if(document.frm.txt1.value=="")
+	{
+		alert("Please Enter The Student Name");
+	}
+	else
+	{
+		var age=document.getElementById('txt2');
+        
+		if(age.value<1 || age.value>20)
+        {
+			alert("Please enter Correct age from 1 to 20");
+		}
+		else
+		{
+			alert("Info is Correct");
+		}
+	}
+}
+</script>
+</head>
+<body>
+<form name="frm">
+Enter name:<input type="text" name="txt1" id="txt1"><br>
+Enter Age:<input type="text" name="txt2" id="txt2"><br>
+Enter Contact No:<input type="text"><br>
+<input type="submit" onclick="change()" value="click">
+</form>
+</body>
+</html>
