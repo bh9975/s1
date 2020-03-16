@@ -1,0 +1,17 @@
+uniname
+{
+  display:block;
+ color:black;
+font-family:Copperplate Gothic Light;
+font-size:16pt;
+font-weight:Bold;
+
+}
+city,rank
+{
+display:block;
+ color:yellow;
+font-family:Arial;
+font-size:12pt;
+font-weight:Bold;
+}
